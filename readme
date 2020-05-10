@@ -1,6 +1,0 @@
-https://medium.com/javascript-in-plain-english/typescript-with-node-and-express-js-why-when-and-how-eb6bc73edd5d
-
-curl -H "Content-Type: application/json" -XPOST "https://search-elasticsearch-qhv42oehxgiztzcatzgbbb62yy.us-east-2.es.amazonaws.com/firstindex/Names/1" -d "{ \"Name\" : \"Naveen\"}"
-
-To start with project , please create your own rabbitmq server by signing to https://www.cloudamqp.com/ , 
-Choose free trial and create instance and provide AMQP URL in app -> MessageQ -> url
