@@ -1,0 +1,31 @@
+{
+  "name": "exp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "tsc && node ./build/app.js",
+    "prod": "tsc && node ./build/app.js",
+    "start": "tsc && nodemon --exec ts-node app/app.ts",
+    "serve": "node build/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "amqp-connection-manager": "^3.0.0",
+    "amqplib": "^0.5.3",
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "get-json": "^1.0.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/amqp-connection-manager": "^2.0.9",
+    "@types/amqplib": "^0.5.13",
+    "nodemon": "^1.19.4"
+  }
+}

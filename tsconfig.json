@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "resolveJsonModule": true,
+    "outDir": "./build",
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es7",
+      "dom"
+    ]
+  },
+  "include": [
+    "app/**/*.ts"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./build"
+  ]
+}
